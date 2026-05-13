@@ -1,0 +1,27 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Quicky</string>
+
+    <!-- Home screen -->
+    <string name="view_cart">View Cart</string>
+
+    <!-- Cart screen -->
+    <string name="total_label">Total: ₹0</string>
+    <string name="place_order">Place Order</string>
+    <string name="cart_empty">Cart is empty!</string>
+    <string name="order_success">Order placed successfully!</string>
+    <string name="remove">Remove</string>
+    <string name="price_format">₹%1$d</string>
+    <string name="quantity_format">Qty: %1$d</string>
+
+    <!-- Product screen -->
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+
+    <!-- Login screen -->
+    <string name="hint_mobile">Enter Mobile Number</string>
+    <string name="btn_send_otp">Send OTP</string>
+    <string name="hint_otp">Enter OTP</string>
+    <string name="btn_verify">Verify OTP</string>
+</resources>

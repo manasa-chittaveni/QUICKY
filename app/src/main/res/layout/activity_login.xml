@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Mobile number input -->
+    <EditText
+        android:id="@+id/editMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="phone"
+        android:hint="@string/hint_mobile"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Send OTP button -->
+    <Button
+        android:id="@+id/btnSendOtp"
+        android:text="@string/btn_send_otp"
+        android:minHeight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- OTP input -->
+    <EditText
+        android:id="@+id/editOtp"
+        android:hint="@string/hint_otp"
+        android:inputType="number"
+        android:autofillHints="smsOtp"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Verify button -->
+    <Button
+        android:id="@+id/btnVerify"
+        android:text="@string/btn_verify"
+        android:minHeight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

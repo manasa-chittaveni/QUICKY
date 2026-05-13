@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "621923364928",
+    "project_id": "quicky-7e3c1",
+    "storage_bucket": "quicky-7e3c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621923364928:android:49df90b8f676f6116fefa5",
+        "android_client_info": {
+          "package_name": "com.example.quicky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhz7kAlkel0ynibEzdeBjj_SIo2ZqnV1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
